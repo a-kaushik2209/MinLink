@@ -231,7 +231,6 @@ app.get('/:shortUrl', (req, res) => {
             <div class="success-message" id="copySuccess">URL copied to clipboard!</div>
         </div>
         <script>
-            // Clipboard functionality
             function copyToClipboard() {
                 const shortUrl = '${fullShortUrl}';
                 navigator.clipboard.writeText(shortUrl).then(() => {
@@ -244,8 +243,6 @@ app.get('/:shortUrl', (req, res) => {
                     console.error('Failed to copy:', err);
                 });
             }
-
-            // Redirect after delay
             setTimeout(() => {
                 window.location.href = "${urlEntry.originalUrl}";
             }, 3000);
