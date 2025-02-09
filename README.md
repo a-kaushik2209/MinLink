@@ -18,7 +18,7 @@ MinLink is a simple and efficient URL shortener that converts long URLs into sho
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/your-repo/minlink-url-shortener.git
+   git clone https://github.com/MinLink/minlink-url-shortener.git
    cd minlink-url-shortener
    ```
 
